@@ -435,7 +435,7 @@ h3.h3 {
 .wrapper {
   margin: 0px auto;
   padding: 0px 30px;
-  width: 1230px;
+  max-width: 1230px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -535,7 +535,6 @@ h3.h3 {
 
 .baner {
   z-index: 2;
-  width: 100rem;
   padding-top: 183px;
   padding-bottom: 183px;
   text-transform: uppercase;
@@ -822,9 +821,20 @@ section.services .services__item .services__item--text {
   color: white;
 }
 
+.our-skills .skills.row {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .our-skills .skills {
   z-index: 2;
   padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .our-skills .skills .skills__skill .skills__skill--text {
@@ -1046,6 +1056,8 @@ section.services .services__item .services__item--text {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .team__items .team-item:nth-child(2), .team__items .team-item:nth-child(3) {
@@ -1304,6 +1316,17 @@ section.services .services__item .services__item--text {
   margin: 0px auto;
 }
 
+.contacts .wrapper .contact__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .contacts .wrapper .contact label {
   text-align: start;
   padding-left: 30px;
@@ -1470,5 +1493,18 @@ footer .wrapper .col .item__text {
   src: url("./Fonts/Raleway/500.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .main-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .team_items {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=main.css.map */

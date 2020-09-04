@@ -30,18 +30,27 @@
     <!-- <script src="fm.revealator.jquery.js"></script> -->
   </head>
   <body>
-    <section class="my-row">
+    <section id="home"class="my-row">
       <header class="my-header">
         <div class="wrapper">
           <div class="logo">Mairala</div>
-          <menu class="main-menu">
+          <!--  -->
+          <!-- <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+            <!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+            <span class="button button-toggle"></span>
+          </label> -->
+          <!--  -->
+          <menu class="main-menu menu__box">
             <ul>
-              <li><a href="" class="main-menu__item">home</a></li>
-              <li><a href="" class="main-menu__item">about</a></li>
-              <li><a href="" class="main-menu__item">protfolio</a></li>
-              <li><a href="" class="main-menu__item">team</a></li>
-              <li><a href="" class="main-menu__item">blog</a></li>
-              <li><a href="" class="main-menu__item">contact</a></li>
+              <li><a href="#home" class="main-menu__item">home</a></li>
+              <li><a href="#about" class="main-menu__item">about</a></li>
+              <li><a href="#protfolio" class="main-menu__item">protfolio</a></li>
+              <li><a href="#team" class="main-menu__item">team</a></li>
+              <li><a href="#blog" class="main-menu__item">blog</a></li>
+              <li><a href="#contact" class="main-menu__item">contact</a></li>
             </ul>
           </menu>
         </div>
@@ -72,7 +81,7 @@
         </div>
       </div>
     </section>
-    <section class="revealator-rotateleft">
+    <section id="about" class="revealator-rotateleft">
       <div class="about">
         <h2 class="about__header h2">know about as</h2>
         <p class="about__text">
@@ -148,7 +157,7 @@
       <div class="our-skills-bg"></div>
       <div class="wrapper">
         <h3 class="our-skills-header">our our skills</h3>
-        <div class="skills row justify-content-between">
+        <div class="skills row ">
           <div class="skills__skill">
             <div class="skills__skill--img">85%</div>
             <div class="skills__skill--text">Marketing</div>
@@ -180,7 +189,7 @@
         doming id quod mazim
       </span>
     </section>
-    <section class="project-photo">
+    <section id="protfolio" class="project-photo">
       <div class="row-photo">
         <div class="row-photo__item revealator-slideup">
           <img
@@ -295,7 +304,7 @@
         <div class="row-btn__btn">see all</div>
       </div>
     </section>
-    <section class="wrapper">
+    <section id="team" class="wrapper">
       <div class="team">
         <h2 class="team__header h2 revealator-slideup">our team member</h2>
         <div class="team__text main-text revealator-slideup">
@@ -371,7 +380,7 @@
         </div>
       </div>
     </section>
-    <section class="client revealator-slideup">
+    <section id="blog" class="client revealator-slideup">
       <div class="client__intro client-intro wrapper">
         <h3 class="client-intro__header h3">What Our Clients are saying</h3>
         <div class="client-intro__slider client-slider">
@@ -419,7 +428,7 @@
         </div>
       </div>
     </section>
-    <section class="contacts revealator-slideup">
+    <section id="contact" class="contacts revealator-slideup">
       <div class="wrapper">
         <div class="contact">
           <h2 class="h2">contact</h2>

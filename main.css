@@ -579,7 +579,7 @@ h3.h3 {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background-image: url(./img/dowload.png);
+  background-image: url(./img/dowload.webp);
   background-size: cover;
 }
 
@@ -667,7 +667,7 @@ div.about .about__text {
   width: 16px;
   display: inline-block;
   content: "";
-  background-image: url(./img/right-arrow-3_icon-icons.com_70878.png);
+  background-image: url(./img/right-arrow-3_icon-icons.com_70878.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -689,7 +689,7 @@ div.about .about__text {
   z-index: 10;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(./img/Layer4.png);
+  background-image: url(./img/Layer4.webp);
 }
 
 section.services {
@@ -753,15 +753,15 @@ section.services .services__item .reaserch::before {
 }
 
 section.services .services__item .cns::before {
-  background-image: url(./img/icon.png);
+  background-image: url(./img/icon.webp);
 }
 
 section.services .services__item .mrk::before {
-  background-image: url(./img/icon2.png);
+  background-image: url(./img/icon2.webp);
 }
 
 section.services .services__item .reaserch::before {
-  background-image: url(./img/icon3.png);
+  background-image: url(./img/icon3.webp);
 }
 
 section.services .services__item .services__item--title {
@@ -797,7 +797,7 @@ section.services .services__item .services__item--text {
   right: 0px;
   top: 0px;
   opacity: 0.5;
-  background-image: url(./img/skills-bg.png);
+  background-image: url(./img/skills-bg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -859,7 +859,7 @@ section.services .services__item .services__item--text {
   line-height: 170px;
   text-align: center;
   position: relative;
-  background-image: url(./img/circlee.png);
+  background-image: url(./img/circlee.webp);
   background-size: contain-5px();
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1035,7 +1035,7 @@ section.services .services__item .services__item--text {
   width: 16px;
   display: inline-block;
   content: "";
-  background-image: url(./img/right-arrow-3_icon-icons.com_70878.png);
+  background-image: url(./img/right-arrow-3_icon-icons.com_70878.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

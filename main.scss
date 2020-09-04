@@ -199,7 +199,7 @@ h3.h3 {
       width: 16px;
 
       height: 16px;
-      background-image: url(./img/dowload.png);
+      background-image: url(./img/dowload.webp);
       background-size: cover;
     }
     &:hover {
@@ -273,7 +273,7 @@ div.about {
           width: 16px;
           display: inline-block;
           content: "";
-          background-image: url(./img/right-arrow-3_icon-icons.com_70878.png);
+          background-image: url(./img/right-arrow-3_icon-icons.com_70878.webp);
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
@@ -296,7 +296,7 @@ div.about {
     z-index: 10;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(./img/Layer4.png);
+    background-image: url(./img/Layer4.webp);
   }
 }
 section.services {
@@ -340,13 +340,13 @@ section.services {
       width: 40px;
     }
     .cns::before {
-      background-image: url(./img/icon.png);
+      background-image: url(./img/icon.webp);
     }
     .mrk::before {
-      background-image: url(./img/icon2.png);
+      background-image: url(./img/icon2.webp);
     }
     .reaserch::before {
-      background-image: url(./img/icon3.png);
+      background-image: url(./img/icon3.webp);
     }
     .services__item--title {
       font-size: 18px;
@@ -379,7 +379,7 @@ section.services {
     right: 0px;
     top: 0px;
     opacity: 0.5;
-    background-image: url(./img/skills-bg.png);
+    background-image: url(./img/skills-bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -424,7 +424,7 @@ section.services {
         line-height: 170px;
         text-align: center;
         position: relative;
-        background-image: url(./img/circlee.png);
+        background-image: url(./img/circlee.webp);
         background-size: call(contain - 5px);
         background-repeat: no-repeat;
         background-position-x: center;
@@ -572,7 +572,7 @@ section.services {
       width: 16px;
       display: inline-block;
       content: "";
-      background-image: url(./img/right-arrow-3_icon-icons.com_70878.png);
+      background-image: url(./img/right-arrow-3_icon-icons.com_70878.webp);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -970,7 +970,7 @@ footer {
 @media (max-width: 576px) {
 }
 @media (max-width: 768px) {
-  .main-menu{
+  .main-menu {
     display: none;
   }
 }

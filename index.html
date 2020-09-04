@@ -21,6 +21,13 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <!--  -->
+    <link rel="stylesheet" href="./revealator//fm.revealator.jquery.min.css" />
+    <!-- <link rel="stylesheet" href="fm.revealator.jquery.css"> -->
+    <script src="./revealator//jquery-1.11.3.min.js"></script>
+    <!-- <script src="jquery-1.11.3.min.js"></script> -->
+    <script src="./revealator//fm.revealator.jquery.min.js"></script>
+    <!-- <script src="fm.revealator.jquery.js"></script> -->
   </head>
   <body>
     <section class="my-row">
@@ -43,7 +50,7 @@
     <section class="my-row">
       <div class="my-row__bg" id="slider">
         <ul id="slides">
-          <li class="slide">
+          <li class="slide showing">
             <img src="./img/slider-header/Layer2.webp" alt="" />
           </li>
           <li class="slide">
@@ -65,7 +72,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="revealator-rotateleft">
       <div class="about">
         <h2 class="about__header h2">know about as</h2>
         <p class="about__text">
@@ -74,15 +81,17 @@
         </p>
       </div>
     </section>
-    <section class="best clearfix">
+    <section class="best clearfix revealator-slideup">
       <div class="best__wrapper">
         <div class="best__wrapper__text col-6">
-          <h3 class="best__wrapper__text-header h3">we are the best</h3>
-          <p class="main-text p1">
+          <h3 class="best__wrapper__text-header h3 revealator-slideup">
+            we are the best
+          </h3>
+          <p class="main-text p1 revealator-slideup">
             Consectetuer adipiscing elit, sed diam nonummy nibh euismod
             tincidunt ut laoreet dolore magna aliquam erat
           </p>
-          <p class="main-text p2">
+          <p class="main-text p2 revealator-slideup">
             Volutpat wisi enim ad minim veniam, quis nostrud exerci tation
             ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
             consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
@@ -98,17 +107,19 @@
       <div class="best__backgorund"></div>
     </section>
 
-    <section class="services">
+    <section class="services revealator-slideup">
       <div class="wrapper">
-        <h3 class="services__header h3">Services We provide</h3>
-        <div class="services__text main-text">
+        <h3 class="services__header h3 revealator-slideup">
+          Services We provide
+        </h3>
+        <div class="services__text main-text revealator-slideup">
           Volutpat wisi enim ad minim veniam, quis nostrud exerci tation
           ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
           Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
           molestie consequat, vel illum dolore eu feugiat nulla facilisis at
           vero eros et accumsan et iusto odio dignissim qui blandit praesent
         </div>
-        <div class="servise-items row">
+        <div class="servise-items row revealator-slideup">
           <div class="services__item col">
             <div class="services__item--title cns">ConsulTancy</div>
             <div class="services__item--text">
@@ -133,7 +144,7 @@
         </div>
       </div>
     </section>
-    <section class="our-skills">
+    <section class="our-skills revealator-slideup">
       <div class="our-skills-bg"></div>
       <div class="wrapper">
         <h3 class="our-skills-header">our our skills</h3>
@@ -162,7 +173,7 @@
       </div>
     </section>
 
-    <section class="recent-project">
+    <section class="recent-project revealator-slideup">
       <h2 class="h2">Some Recent Projects</h2>
       <span class="main-text">
         Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
@@ -171,7 +182,7 @@
     </section>
     <section class="project-photo">
       <div class="row-photo">
-        <div class="row-photo__item">
+        <div class="row-photo__item revealator-slideup">
           <img
             src="./img/works/180-1 copy.png"
             alt="work"
@@ -183,7 +194,7 @@
             <div class="row-photo__item--my-hover--bg"></div>
           </div>
         </div>
-        <div class="row-photo__item">
+        <div class="row-photo__item revealator-slideup">
           <img
             src="./img/works/color1-1tykke copy.png"
             alt="work"
@@ -195,7 +206,7 @@
             <p class="row-photo__item--my-hover--text">spanding</p>
           </div>
         </div>
-        <div class="row-photo__item">
+        <div class="row-photo__item revealator-slideup">
           <img
             src="./img/works/rainyday-1 copy.png"
             alt="work"
@@ -207,7 +218,7 @@
             <p class="row-photo__item--my-hover--text">spanding</p>
           </div>
         </div>
-        <div class="row-photo__item">
+        <div class="row-photo__item revealator-slideup">
           <img
             src="./img/works/Rectangle 56 copy 8.png"
             alt="work"
@@ -221,7 +232,7 @@
           </div>
         </div>
       </div>
-      <div class="project-photo__title">
+      <div class="project-photo__title revealator-slideup">
         <h4 class="project-photo__title-header h4">Latest from twitter</h4>
         <div class="project-photo__title--smal-text">
           Trying out velositey - a simple website building extension for
@@ -230,7 +241,7 @@
         <a href="" class="project-photo__title--link">buff.li/NC8g0g</a>
       </div>
       <div class="row-photo">
-        <div class="row-photo__item">
+        <div class="row-photo__item revealator-slideup">
           <img
             src="./img/works/180-1 copy.png"
             alt="work"
@@ -242,7 +253,7 @@
             <div class="row-photo__item--my-hover--bg"></div>
           </div>
         </div>
-        <div class="row-photo__item">
+        <div class="row-photo__item revealator-slideup">
           <img
             src="./img/works/color1-1tykke copy.png"
             alt="work"
@@ -254,7 +265,7 @@
             <p class="row-photo__item--my-hover--text">spanding</p>
           </div>
         </div>
-        <div class="row-photo__item">
+        <div class="row-photo__item revealator-slideup">
           <img
             src="./img/works/rainyday-1 copy.png"
             alt="work"
@@ -266,7 +277,7 @@
             <p class="row-photo__item--my-hover--text">spanding</p>
           </div>
         </div>
-        <div class="row-photo__item">
+        <div class="row-photo__item revealator-slideup">
           <img
             src="./img/works/Rectangle 56 copy 8.png"
             alt="work"
@@ -281,20 +292,18 @@
         </div>
       </div>
       <div class="row-btn">
-        <div class="row-btn__btn">
-          see all
-        </div>
+        <div class="row-btn__btn">see all</div>
       </div>
     </section>
     <section class="wrapper">
       <div class="team">
-        <h2 class="team__header h2">our team member</h2>
-        <div class="team__text main-text">
+        <h2 class="team__header h2 revealator-slideup">our team member</h2>
+        <div class="team__text main-text revealator-slideup">
           Nam liber tempor cum soluta nobis eleifend option congue nihil
           imperdiet doming id quod mazim
         </div>
         <div class="team__items">
-          <div class="team__items__item team-item">
+          <div class="team__items__item team-item revealator-slideup">
             <div class="team-item__conteiner">
               <div class="team-item__img-container">
                 <img src="./img/people.png" alt="people" />
@@ -316,7 +325,7 @@
             </div>
           </div>
 
-          <div class="team__items__item team-item">
+          <div class="team__items__item team-item revealator-slideup">
             <div class="team-item__conteiner">
               <div class="team-item__img-container">
                 <img src="./img/people.png" alt="people" />
@@ -338,7 +347,7 @@
             </div>
           </div>
 
-          <div class="team__items__item team-item">
+          <div class="team__items__item team-item revealator-slideup">
             <div class="team-item__conteiner">
               <div class="team-item__img-container">
                 <img src="./img/people.png" alt="people" />
@@ -362,7 +371,7 @@
         </div>
       </div>
     </section>
-    <section class="client">
+    <section class="client revealator-slideup">
       <div class="client__intro client-intro wrapper">
         <h3 class="client-intro__header h3">What Our Clients are saying</h3>
         <div class="client-intro__slider client-slider">
@@ -410,7 +419,7 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+    <section class="contacts revealator-slideup">
       <div class="wrapper">
         <div class="contact">
           <h2 class="h2">contact</h2>
@@ -436,11 +445,9 @@
       </div>
     </section>
     <footer>
-      <div class="wrapper">
+      <div class="wrapper revealator-slideup">
         <div class="col">
-          <div class="logo logo--footer">
-            Mairala
-          </div>
+          <div class="logo logo--footer">Mairala</div>
           <span class="footer__text">
             Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
             molestie consequat, vel illum dolore.
